@@ -24,3 +24,12 @@ Me permite visualizar los cambios entre el working directory y la ultima  foto(c
 ```
 git diff
 ```
+## git ammend
+me permite agregar cambios al ultimo commit, se trata de emmendar un error, solo funciona en el ultimo commit
+* Primero se debe ejecutar el git add
+* Hacer el commit
+* Despues se abre un editor de texto(nano), donde debemos guardar los cambios y luego salir.
+
+```
+git --ammend
+```
