@@ -31,5 +31,5 @@ me permite agregar cambios al ultimo commit, se trata de emmendar un error, solo
 * Despues se abre un editor de texto(nano), donde debemos guardar los cambios y luego salir.
 
 ```
-git --ammend
+git commit --ammend
 ```
